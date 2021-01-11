@@ -1,0 +1,37 @@
+.navbar-brand {
+  width: 200px;
+  height: 150px;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.navbar-nav li {
+  background-color: rgb(144, 158, 185);
+  border-radius: 10px;
+  margin: 0px 10px;
+  padding: 0px 15px;
+
+  box-shadow: 3px 3px rgb(25, 113, 133), -1em 0 0.4em rgb(97, 110, 165);
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.inner-effect {
+  overflow: hidden;
+}
+.inner-effect img {
+  transition: all 1.6s ease-out;
+}
+.inner-effect:hover img {
+  transform: scale(1.6);
+}
+.btn:hover {
+  color: rgb(103, 27, 19);
+}
+.card-body {
+  box-shadow: 0 0 20px 7px rgb(26, 95, 110);
+}
+.card {
+  margin: 20px 10px;
+}
